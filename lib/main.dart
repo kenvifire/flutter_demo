@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:fultter_demo/ball.dart';
 import 'package:fultter_demo/dice.dart';
+import 'package:fultter_demo/score.dart';
+import 'package:fultter_demo/xylophone.dart';
 
 void main() {
-  runApp(BallApp());
+  runApp(ScoreBoardApp());
 }
 
 
@@ -81,7 +83,7 @@ class CardApp extends StatelessWidget {
                       width: 10.0,
                     ),
                     Text(
-                      'kenvifly@gmail.com',
+                      'xxx@gmail.com',
                       style: TextStyle(
                         color: Colors.teal.shade900,
                         fontFamily: "Source Sans Pro",
