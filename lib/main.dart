@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:fultter_demo/ball.dart';
+import 'package:fultter_demo/bmi.dart';
 import 'package:fultter_demo/destini.dart';
 import 'package:fultter_demo/dice.dart';
 import 'package:fultter_demo/score.dart';
 import 'package:fultter_demo/xylophone.dart';
 
 void main() {
-  runApp(Destini());
+  runApp(BMICalculator());
 }
 
 
